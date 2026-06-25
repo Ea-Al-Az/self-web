@@ -1,0 +1,82 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.1;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 25rem;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    display: flex;
+}
+
+.nav-button.active {
+    background-color: green;
+    color: white;
+}
+
+.nav-button:hover {
+    background-color: orange;
+}
+
+.bloglayout {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 740px;
+    margin: 2rem auto;
+    border-bottom: 1px solid black;
+    /*border: 1px solid yellow;*/
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    gap: 1rem;
+    flex: 2;
+    padding: 1rem;
+    /*border: 1px solid green;*/
+}
+.divider {
+    border-left: 1px solid black;
+    height: 40rem;
+    margin: 0 10px;
+}
+
+.post {
+    padding: 1rem;
+}
+
+.me-box {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: sticky;
+    /*border: 1px solid dodgerblue;*/
+}
+
+.links-placeholder {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 500px;
+    border: 1px solid green;
+}
