@@ -1,0 +1,46 @@
+.bloglayout {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 740px;
+    margin: 2rem auto;
+    border-bottom: 1px solid black;
+    /*border: 1px solid yellow;*/
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    gap: 1rem;
+    flex: 2;
+    padding: 1rem;
+    /*border: 1px solid green;*/
+}
+.divider {
+    border-left: 1px solid black;
+    height: 40rem;
+    margin: 0 10px;
+}
+
+.post {
+    padding: 1rem;
+}
+
+.me-box {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: sticky;
+    /*border: 1px solid dodgerblue;*/
+}
+
+.links-placeholder {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 500px;
+    border: 1px solid green;
+}
